@@ -1,0 +1,25 @@
+{
+  "experimentId": "exp_2025_001",
+  "createdAt": "2025-09-17T15:45:00Z",
+  "description": "Volatility analysis for SOL token",
+  "parameters": {
+    "tokenSymbol": "SOL",
+    "analysisWindowMinutes": 60,
+    "volatilityThreshold": 0.15,
+    "liquidityThresholdUsd": 100000,
+    "flagsMask": 3
+  },
+  "status": "in_progress",
+  "results": {
+    "averagePrice": 152.43,
+    "volatility": 0.12,
+    "riskScore": 47.5,
+    "trend": "neutral"
+  },
+  "notes": "Testing updated volatility thresholds and flag penalties.",
+  "metadata": {
+    "runBy": "researcher01",
+    "tags": ["risk", "volatility", "token-analysis"],
+    "lastUpdated": "2025-09-17T16:10:00Z"
+  }
+}

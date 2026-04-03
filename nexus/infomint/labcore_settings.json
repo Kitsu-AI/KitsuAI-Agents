@@ -1,0 +1,25 @@
+{
+  "projectName": "LabCore",
+  "environment": "development",
+
+  "logging": {
+    "level": "debug",
+    "destinations": ["console", "file"],
+    "filePath": "./logs/labcore.log",
+    "rotation": {
+      "enabled": true,
+      "maxSizeMb": 10,
+      "maxFiles": 5
+    }
+  },
+  "features": {
+    "enableDiagnostics": true,
+    "enableRealTimeAlerts": false,
+    "enableMetrics": true
+  },
+  "metadata": {
+    "createdAt": "2025-09-17T16:30:00Z",
+    "updatedAt": "2025-09-17T16:30:00Z",
+    "maintainer": "dev-team"
+  }
+}
